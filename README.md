@@ -14,6 +14,9 @@ Crear proyecto
 nest new <project_name>
 ```
 
+Vamos a utilizar docker con postgres, si tu computador no soporta el proceso de docker 
+puedes usar algún servicio cloud de postgres por ejemplo neontech, bd postgres dentro de vercel
+
 Agregar variables de entorno base de datos para docker
 * crea archivo .env
 * docker puede acceder al archivo .env asi no este configurado en nest las variables de entorno
