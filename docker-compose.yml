@@ -7,8 +7,8 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_PASSWORD: ${DB_PASSWORD}  
-      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_PASSWORD: postgres_parcial
+      POSTGRES_DB: postgres_parcial
     container_name: dev-estudio
     volumes:
       - ./postgres:/var/lib/postgresql/data
